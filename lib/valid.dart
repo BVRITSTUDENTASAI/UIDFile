@@ -75,7 +75,7 @@ class _RegisterFormState extends State<RegisterForm> {
             onPressed: () {
               if (_formKey.currentState!.validate()) {
                 ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('Data is valid')),
+                  const SnackBar(content: Text('🔐 Data is Safe & Valid! ✨')),
                 );
               }
             },
